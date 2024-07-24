@@ -1,0 +1,17 @@
+{
+  "hosting": {
+	  "site": "experiments-ae1f9-55d7e",
+    "public": "dist/experiments/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

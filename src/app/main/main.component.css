@@ -1,0 +1,16 @@
+html {
+  background-color: black !important;
+}
+
+* {
+  background-color: black;
+  color: green;
+}
+
+body {
+  background-color: black;
+}
+
+.fill {
+  min-height: calc(100vh - 415.25px);
+}
